@@ -34,7 +34,7 @@ thiserror = "1.0.20"
 typed-builder = { version = "0.10", optional = true }
 
 # "serde" feature enables ability to serialize/deserialize AST.
-serde = { version = "1.0.103", features = ["derive"], optional = true }
+serde = { version = "1.0.103", features = ["derive"] }
 
 # "juniper" feature enables ability to use AST as GraphQL types.
 juniper = { version = "0.15.10", default-features = false, optional = true }
